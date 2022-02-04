@@ -1,12 +1,17 @@
-## NAME_OF_YOUR_APP_HERE
+## Hello_World_App
 
 ### App Description
-`TODO://` Add app description
+Simple App that has two functionalities:
+
+- Change the color of the 'Greeting' banner.
+- Change the color of the background.
+
+
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
+![](https://i.imgur.com/TMZw4EL.gif)
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
+
 
 
 ### Required User Stories
@@ -15,7 +20,7 @@
 - [x] 3. User can tap a button to change the text color of the label.
 
 ### Optional User Stories
-- [X] 1. User can tap a button to change the color of the background view.
+- [x] 1. User can tap a button to change the color of the background view.
 - [ ] 2. User can tap a button to change the text string of the label - Goodbye 👋.
 - [ ] 3. User can tap on the background view to reset all views to default settings.
 - [ ] 4. User can update the label text with custom text entered into the text field.
@@ -23,3 +28,4 @@
    - [ ] b. User can tap the "Change text string" button to update the label with the text from the text field.
    - [ ] c. If the text field is empty, update label with default text string.
    - [ ] d. The keyboard is dismissed after the button has been tapped.
+
