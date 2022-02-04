@@ -18,6 +18,13 @@ class ViewController: UIViewController {
     @IBAction func ButtonClicked(_ sender: Any) {
         print("Hello")
         TextLabel.textColor = UIColor.orange
+        
     }
+        
+    @IBAction func BackgroundButton(_ sender: Any) {
+
+        view.backgroundColor = UIColor.systemPink
+    }
+
 }
 

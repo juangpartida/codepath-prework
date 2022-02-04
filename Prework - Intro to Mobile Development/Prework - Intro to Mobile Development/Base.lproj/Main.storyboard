@@ -16,34 +16,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aay-Xj-uwl">
-                                <rect key="frame" x="144" y="411" width="127" height="74"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button">
-                                    <backgroundConfiguration key="background">
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
-                                    </backgroundConfiguration>
-                                    <color key="baseForegroundColor" red="0.68316954370000005" green="0.17436644430000001" blue="0.72552901510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <action selector="ButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vz8-p6-jAX"/>
-                                </connections>
-                            </button>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="r0v-Ii-Mdm">
                                 <rect key="frame" x="87" y="86" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello World!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWv-LP-mV1">
-                                        <rect key="frame" x="54" y="46" width="132" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello World! - Juan " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWv-LP-mV1">
+                                        <rect key="frame" x="16" y="18" width="209" height="93"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <color key="textColor" red="0.93018430471420288" green="0.035992559045553207" blue="0.93451064825057983" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aay-Xj-uwl">
+                                <rect key="frame" x="117" y="411" width="181" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Change Greeting Color">
+                                            <attributes>
+                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.68316954370000005" green="0.17436644430000001" blue="0.72552901510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="ButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vz8-p6-jAX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsO-66-wlP">
+                                <rect key="frame" x="117" y="512" width="181" height="74"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <buttonConfiguration key="configuration" style="tinted">
+                                    <backgroundConfiguration key="background">
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                    </backgroundConfiguration>
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Change Background Color">
+                                            <attributes>
+                                                <font key="NSFont" size="12" name="Helvetica"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseForegroundColor" red="0.68316954370000005" green="0.17436644430000001" blue="0.72552901510000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="BackgroundButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QQQ-rC-C1S"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
